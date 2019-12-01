@@ -5,3 +5,98 @@ html {
 *, *::before, *::after {
   box-sizing: inherit;
 }
+
+body {
+  margin: 0;
+}
+
+.top-bar {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background-color: #7400c2;
+  padding: .5em;
+}
+
+.nav-icon {
+  display: block;
+  max-width: 5%;
+  width: 100%;
+}
+
+.people-icon {
+  display: block;
+  max-width: 5%;
+  width: 100%;
+}
+
+header {
+  display: block;
+  text-align: center;
+  background-color: #c685f2;
+}
+
+.main-title {
+  padding: 0;
+  margin: 0;
+}
+
+h1 {
+  font-size: 2.5em;
+  font-family: Solway, serif;
+}
+
+ul {
+  margin: 0;
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+  padding: .5em;
+}
+
+ul li a {
+  font-family: Solway, serif;
+  text-decoration: none;
+  color: #000;
+  font-size: 1.5em;
+}
+
+ul li a:hover {
+  background-color: #7400c2;
+  color: #fff;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+}
+
+.seasonal-recipes {
+  flex-basis: 33.333%;
+  flex-direction: column;
+  text-align: center;
+  border: solid 5px #c685f2;
+  margin: 1em;
+  padding: .5em;
+  border-radius: 8px;
+}
+
+.gift-bundles {
+  flex-basis: 33.333%;
+  flex-direction: column;
+  text-align: center;
+  border: solid 5px #c685f2;
+  margin: 1em;
+  padding: .5em;
+  border-radius: 8px;
+}
+
+.coming-soon {
+  flex-basis: 33.333%;
+  flex-direction: column;
+  text-align: center;
+  border: solid 5px #c685f2;
+  margin: 1em;
+  padding: .5em;
+  border-radius: 8px;
+}
