@@ -7,6 +7,7 @@ html {
 }
 
 body {
+  background-color: #f6e8ff;
   margin: 0;
 }
 
@@ -62,41 +63,58 @@ ul li a {
 }
 
 ul li a:hover {
-  background-color: #7400c2;
   color: #fff;
+  background-color: #cc90f5;
+  border-radius: 8px;
+  padding-top: .33em;
+  padding-bottom: .33em;
 }
 
 section {
-  display: flex;
-  justify-content: center;
+  display: inline-block;
+  text-align: center;
+}
+
+nav {
+  border-bottom: solid 4px #7400c2;
+  border-top: solid 4px #7400c2;
 }
 
 .seasonal-recipes {
-  flex-basis: 33.333%;
+  display: flex;
   flex-direction: column;
+  justify-content: space-between;
+  width: 15em;
   text-align: center;
   border: solid 5px #c685f2;
   margin: 1em;
   padding: .5em;
   border-radius: 8px;
+  background-color: #e6c5fc;
 }
 
 .gift-bundles {
-  flex-basis: 33.333%;
+  display: flex;
   flex-direction: column;
+  justify-content: space-between;
+  width: 15em;
   text-align: center;
   border: solid 5px #c685f2;
   margin: 1em;
   padding: .5em;
   border-radius: 8px;
+  background-color: #e6c5fc;
 }
 
 .coming-soon {
-  flex-basis: 33.333%;
+  display: flex;
   flex-direction: column;
+  justify-content: space-between;
+  width: 15em;
   text-align: center;
   border: solid 5px #c685f2;
   margin: 1em;
   padding: .5em;
   border-radius: 8px;
+  background-color: #e6c5fc;
 }
