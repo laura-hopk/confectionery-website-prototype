@@ -173,14 +173,14 @@ img {
 }
 
 h3 {
-  display: inline;
+  display: inline-block;
   position: absolute;
   bottom: .75em;
   left: .5em;
   padding: .25em;
   font-family: "Sulphur Point", sans-serif;
   font-weight: bold;
-  background: rgba(116, 0, 194, 0.5);
+  background: rgba(116, 0, 194, .5);
   color: #fff;
   border-radius: 8px;
   margin-bottom: 0;
